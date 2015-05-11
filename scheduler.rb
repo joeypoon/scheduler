@@ -16,12 +16,13 @@
 #930 = 90
 #6pm = 600
 
-# require './schedule'
+require './schedule'
 require './employee'
 
-# schedule = Schedule.new
-# schedule.create_schedule
-# schedule.display_schedule
+schedule = Schedule.new
+schedule.create_schedule
+schedule.display_schedule
 
-employee = Employee.new 'Joey'
-employee.set_schedule
+# employee = Employee.new 'Joey'
+# employee.set_schedule
+# puts employee.work_schedule
